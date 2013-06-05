@@ -16,7 +16,7 @@ try:
         'input' : infile.read()
     })
 except IOError:
-    print('Error: ' + sys.argv[0] + 'is not a valid file.')
+    print('Error: ' + sys.argv[1] + 'is not a valid file.')
     exit(1)
 infile.close()
     
